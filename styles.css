@@ -1,0 +1,55 @@
+body {
+	font-family: "Inter";
+	margin: 24px;
+}
+
+p {
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 400;
+}
+
+.hr {
+	background: black;
+	width: 100%;
+	height: 4px;
+	flex-shrink: 10;
+}
+
+.a {
+	flex-shrink: 0;
+}
+
+.But {
+	border-radius: 12px;
+	color: white;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	gap: 24px;
+}
+
+.others {
+	background: #4e6bff;
+	flex-grow: 1;
+	padding: 12px;
+}
+
+.home {
+	background: #ff4e4e;
+	flex-grow: 3;
+	padding: 12px;
+}
+
+.line {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+}
