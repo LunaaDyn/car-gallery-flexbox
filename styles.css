@@ -1,6 +1,6 @@
 body {
 	font-family: "Inter";
-	margin: 24px;
+	margin: 0px 24px;
 }
 
 p {
@@ -41,6 +41,19 @@ h1 {
 	padding: 12px;
 }
 
+.align {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.more {
+	background: #4e6bff;
+	padding: 18px 32px;
+	width: max-content;
+	margin: 64px;
+}
+
 .home {
 	background: #ff4e4e;
 	flex-grow: 3;
@@ -52,4 +65,38 @@ h1 {
 	align-items: center;
 	justify-content: space-between;
 	gap: 24px;
+}
+
+img {
+	max-height: 286px;
+}
+
+.photos {
+	gap: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.row1 {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+}
+
+.row2 {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+}
+
+.img1 {
+}
+
+.img2 {
+}
+
+.img3 {
+}
+
+.img4 {
 }
