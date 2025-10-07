@@ -76,6 +76,10 @@ h1 {
 	max-height: 286px;
 }*/
 
+img:hover {
+	cursor: pointer;
+}
+
 .photos {
 	gap: 12px;
 	display: flex;
